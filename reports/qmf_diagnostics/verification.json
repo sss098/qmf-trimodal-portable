@@ -1,0 +1,10 @@
+{
+  "tests_passed": 39,
+  "ruff_check": "passed",
+  "ruff_format": "28 files unchanged",
+  "formal_training_started": false,
+  "formal_v1_json_csv_sha256_unchanged": 619,
+  "prior_auc_bootstrap_intervals_reproduced": true,
+  "review": "independent read-only review; original hinge boundary gradient regression added",
+  "training_entry": "scripts/train_qmf_ablations.sh"
+}

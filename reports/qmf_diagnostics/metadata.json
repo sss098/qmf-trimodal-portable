@@ -1,0 +1,24 @@
+{
+  "patients": 85,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "replicates": 10000,
+  "bootstrap_seed": 20260915,
+  "unit": "patient",
+  "method": "class-stratified paired percentile bootstrap",
+  "scope": "fixed ensemble OOF predictions; no retraining",
+  "source_sha256": {
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/equal_late/seed42/oof_predictions.csv": "fdc68261970452fad604a406bb41af43dbf616a1b354e60fb65449e3e5f60907",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/equal_late/seed43/oof_predictions.csv": "45624ee1cdf6249e105f83c7e4299fa7aeff32bff2ce5aad11c1bf80530a70ed",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/equal_late/seed44/oof_predictions.csv": "b357f438e59b06a5c3b0965f14dced25b1337f4437b24624a36867f846203c8a",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/qmf/seed42/oof_predictions.csv": "7c092966ba0f5ea386fa4c5175bb582ac2c0f08bdb31f9d3f73d43ff08d58287",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/qmf/seed43/oof_predictions.csv": "a287279bb8aac50f61faed3d0a1f8545f0e3edb67beb1d521591470f2c828229",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/qmf/seed44/oof_predictions.csv": "19c49d74e1970ae87bfef7b564ab1a439127abc5aa30964752f310cebe239f6f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/tmc/seed42/oof_predictions.csv": "ca149cabfbe229213522333bdf0dec9b84b4b8d02cb802be29b796717123bc7d",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/tmc/seed43/oof_predictions.csv": "dd1d002df5923d800772b0b3818d4e1ff32b5d5db07f3e6e3d0bc0e99d8ceb69",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/tmc/seed44/oof_predictions.csv": "95169658a7138a7b05be554c94fc5413b081c16d2537530c459d4a338cbb5fe5"
+  }
+}

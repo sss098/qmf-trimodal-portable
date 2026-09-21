@@ -1,0 +1,22 @@
+source_project: data/source
+clinical_excel: data/clinical.xlsx
+raw_root: data/raw
+imagenet_weights: weights/resnet50-11ad3fa6.pth
+output: artifacts
+epochs: 100
+patience: 100
+batch_size: 6
+windows_per_segment: 8
+lr: 0.0002
+encoder_lr: 1.0e-05
+weight_decay: 0.001
+rank_weight: 0.1
+split_seed: 20260911
+device: cuda
+threads: 2
+# Train-only corruption; all three encoders and the fusion formula remain unchanged.
+noise_probability: 0.5
+us_noise_max_std: 0.1
+emg_noise_max_std: 1.0
+table_noise_max_std: 1.0
+rank_mode: positive_margin

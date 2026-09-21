@@ -1,0 +1,33 @@
+{
+  "config": {
+    "source_project": "data/source",
+    "clinical_excel": "data/clinical.xlsx",
+    "raw_root": "data/raw",
+    "imagenet_weights": "weights/resnet50-11ad3fa6.pth",
+    "output": "./artifacts",
+    "epochs": 100,
+    "patience": 12,
+    "batch_size": 6,
+    "windows_per_segment": 8,
+    "lr": 0.0002,
+    "encoder_lr": 1e-05,
+    "weight_decay": 0.001,
+    "rank_weight": 0.1,
+    "rank_mode": "original",
+    "split_seed": 20260911,
+    "device": "cuda",
+    "threads": 2
+  },
+  "dataset": "e65cd77846eb1a05301d8313f816b4e11722d47aeb191747801cbb93a6b70989",
+  "code": "a880b77c0f506f7e15a9f36e9655c31bf6d04bc994c7f5935b6fd43194a5d4ff",
+  "weights": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "smoke": false,
+  "environment": {
+    "python": "3.11.16",
+    "torch": "2.4.0",
+    "cuda": "12.4",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  },
+  "method": "qmf",
+  "seed": 43
+}

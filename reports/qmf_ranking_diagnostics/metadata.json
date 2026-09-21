@@ -1,0 +1,48 @@
+{
+  "settings": [
+    "equal_late",
+    "positive_margin",
+    "rank0",
+    "original"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "levels": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "noise_repeats": 3,
+  "bootstrap": 10000,
+  "smoke": false,
+  "diagnostics_only": true,
+  "source_sha256": {
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/equal_late/seed42/oof_predictions.csv": "fdc68261970452fad604a406bb41af43dbf616a1b354e60fb65449e3e5f60907",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/equal_late/seed43/oof_predictions.csv": "45624ee1cdf6249e105f83c7e4299fa7aeff32bff2ce5aad11c1bf80530a70ed",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/equal_late/seed44/oof_predictions.csv": "b357f438e59b06a5c3b0965f14dced25b1337f4437b24624a36867f846203c8a",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/qmf/seed42/oof_predictions.csv": "7c092966ba0f5ea386fa4c5175bb582ac2c0f08bdb31f9d3f73d43ff08d58287",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/qmf/seed43/oof_predictions.csv": "a287279bb8aac50f61faed3d0a1f8545f0e3edb67beb1d521591470f2c828229",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/formal_v1/qmf/seed44/oof_predictions.csv": "19c49d74e1970ae87bfef7b564ab1a439127abc5aa30964752f310cebe239f6f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank0_v1/qmf/seed42/oof_predictions.csv": "b89b3b262e93b81aafb2a848cc3b029699296132cf0cd08a26e195afae903d0f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank0_v1/qmf/seed43/oof_predictions.csv": "72661406496fa28e81ceac7f4c7408b3780ccfef302c3684b704c514d435ca29",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank0_v1/qmf/seed44/oof_predictions.csv": "0706f0111ce745f71b9c7e2525af28fe0e74cfea5ec83ff6e0593458749f0c79",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank_original_v1/qmf/seed42/oof_predictions.csv": "e1fbdb77e90a7152714d6aaf250fdf04f6191661f9f131a5f4339089b49fa05b",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank_original_v1/qmf/seed43/oof_predictions.csv": "6d9d9ddfe13c4e36335e68f6abb22ee6f92cbf15386ea70f37bdd5a1e6ac5910",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank_original_v1/qmf/seed44/oof_predictions.csv": "e6fc42631014435d91380d22a104624c971fa73dab98139edcb787e8e77e8d46"
+  },
+  "protocol": "single-modality Gaussian corruption; frozen OOF models; no retraining",
+  "units": "US: level*0.1 pixel SD; EMG/table: level training-standardized SD",
+  "uncertainty": "patient bootstrap conditional on trained models and fixed noise realizations"
+}

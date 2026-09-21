@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Large model weights and reproducible intermediate caches are kept locally.
+weights/
+*.pt
+*.pth
+artifacts/prepared/
+data/

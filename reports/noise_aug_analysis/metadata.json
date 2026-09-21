@@ -1,0 +1,20 @@
+{
+  "patients": 85,
+  "bootstrap": 10000,
+  "seed": 20260920,
+  "scope": "fixed OOF predictions; patient-paired bootstrap",
+  "source_sha256": {
+    "artifacts/runs/formal_v1/equal_late/seed42/oof_predictions.csv": "fdc68261970452fad604a406bb41af43dbf616a1b354e60fb65449e3e5f60907",
+    "artifacts/runs/formal_v1/equal_late/seed43/oof_predictions.csv": "45624ee1cdf6249e105f83c7e4299fa7aeff32bff2ce5aad11c1bf80530a70ed",
+    "artifacts/runs/formal_v1/equal_late/seed44/oof_predictions.csv": "b357f438e59b06a5c3b0965f14dced25b1337f4437b24624a36867f846203c8a",
+    "artifacts/runs/formal_v1/qmf/seed42/oof_predictions.csv": "7c092966ba0f5ea386fa4c5175bb582ac2c0f08bdb31f9d3f73d43ff08d58287",
+    "artifacts/runs/formal_v1/qmf/seed43/oof_predictions.csv": "a287279bb8aac50f61faed3d0a1f8545f0e3edb67beb1d521591470f2c828229",
+    "artifacts/runs/formal_v1/qmf/seed44/oof_predictions.csv": "19c49d74e1970ae87bfef7b564ab1a439127abc5aa30964752f310cebe239f6f",
+    "artifacts/runs/noise_aug_v1/equal_late/seed42/oof_predictions.csv": "426e59348f2e2f7535a5a3c2330cc7f0de683e48567e815a2460e79bc4e8dee3",
+    "artifacts/runs/noise_aug_v1/equal_late/seed43/oof_predictions.csv": "f67f5a44a41fabefc72cd3d4b27345221c77a227ba269ba3d92b3b49ff7c99f9",
+    "artifacts/runs/noise_aug_v1/equal_late/seed44/oof_predictions.csv": "798cc83efbb0336d970354b64d29cdc555873e8dff06dd14e3ff12bb47e5b540",
+    "artifacts/runs/noise_aug_v1/qmf/seed42/oof_predictions.csv": "80652736d9c0b681a54db660d824fbd0fe9a9e11feccfcd777db23cb3c6f2acb",
+    "artifacts/runs/noise_aug_v1/qmf/seed43/oof_predictions.csv": "a2ceeaf6b8a0ef164295b754e4d9c9daf76dbc612cd660d52ef38043d32d056d",
+    "artifacts/runs/noise_aug_v1/qmf/seed44/oof_predictions.csv": "e645bde3ce918ac7509254a38e4cd58b7a8ed5cb6e9cc91460728acff0ff8ce4"
+  }
+}

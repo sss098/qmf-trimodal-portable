@@ -1,0 +1,71 @@
+{
+  "run_name": "noise_aug_v1",
+  "settings": [
+    "equal_late",
+    "positive_margin"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "levels": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "noise_repeats": 3,
+  "bootstrap": 10000,
+  "smoke": false,
+  "diagnostics_only": false,
+  "source_sha256": {
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed42/oof_predictions.csv": "426e59348f2e2f7535a5a3c2330cc7f0de683e48567e815a2460e79bc4e8dee3",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed42/fold0/model.pt": "ca8669c5a7e54068d9b4c5a60f16bd5cd1560cbdc44d6f2527e28bf47491e013",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed42/fold1/model.pt": "5ff4d6a31b3e7a4ce45378cfce7fd14a1e4c835d46c3a0f56131f0584e9c58ee",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed42/fold2/model.pt": "ed67aa1c223c40ad510ee54d8a77a34c82199b2e9a9b77dfaf252184f191001f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed42/fold3/model.pt": "25848b04a3f59668dd78873175990ed267d99522223f8bd3d99625e848c1fc42",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed42/fold4/model.pt": "a3393cc6bb5593e0f6e131fa3031f9f3e95a00c94e6f361c27d9fa8a99dcf7ba",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed43/oof_predictions.csv": "f67f5a44a41fabefc72cd3d4b27345221c77a227ba269ba3d92b3b49ff7c99f9",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed43/fold0/model.pt": "7afb8631247792f76eb99a9340a6f2c0194e303d6566d22b7e5af39618ba36fd",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed43/fold1/model.pt": "315fb0da039400662528eedfb31f47a82ef8e85ecbf1cf4eaeb512369fbbc5e2",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed43/fold2/model.pt": "cd76f6440bed2310740e082f6b7d4d5af87a37cea56288c2f5943e1a192baa0f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed43/fold3/model.pt": "150a6e8d9e68c052b20d10eb154542f48818cfb190465245e66d7bda7c60c45d",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed43/fold4/model.pt": "e8b6602ab259aebc245e0f3ab9324d7c45bfc31e41866792d376ad2b1a7df040",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed44/oof_predictions.csv": "798cc83efbb0336d970354b64d29cdc555873e8dff06dd14e3ff12bb47e5b540",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed44/fold0/model.pt": "360ea2343fa5357ef531e460b3dd2c4f84e269b51f4fa874534fcf8cceba2676",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed44/fold1/model.pt": "bba5776b15e22ead1ee8502b6d1c7c8c9407fdab763c3d7ff43c00727a3da130",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed44/fold2/model.pt": "6e978570f0fdefbc6efd1877fe3d4de076543c6ac50d29ea989a5ec605da5df6",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed44/fold3/model.pt": "cfaa75a2ada624e4deadb797940e8c29d4235f87dce83171c61c4e0c5226319d",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/seed44/fold4/model.pt": "28e8189fb807b7f5908a34ee7a50b27238547fc2ea552ce9514364f4f06a21a7",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed42/oof_predictions.csv": "80652736d9c0b681a54db660d824fbd0fe9a9e11feccfcd777db23cb3c6f2acb",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed42/fold0/model.pt": "13a50f9aee4695918791367b877e97943bade568da3c6ce39c77e378a5936c43",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed42/fold1/model.pt": "77d3f1c13742d7d611f7392bccdf97b50af60af9f366412314764b03a0617562",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed42/fold2/model.pt": "0477be0125dd60f01b18e8cccbe0895e2b11b9f72375cfdf46b160e907407241",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed42/fold3/model.pt": "57997aa9f074510bf464b52c5b7b1f1dea51edd85748d622e4e64a5812ee57f1",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed42/fold4/model.pt": "749dee8e788499bed1bd3c4b44bd129c0e0b047a513de53f69792c2f3b0b4538",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed43/oof_predictions.csv": "a2ceeaf6b8a0ef164295b754e4d9c9daf76dbc612cd660d52ef38043d32d056d",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed43/fold0/model.pt": "10eb737cb19d86db75df4f15b11f7832c327b1766709bbf41fecf36d00b2faa2",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed43/fold1/model.pt": "f28bc941f02ef84d242aec403986ea390ab58b2788b5505a25c62f821fca973f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed43/fold2/model.pt": "5ad47bff7fae3cf1d033a07986cffd7fa1bac907033aa2c0a02e318b7e1f7161",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed43/fold3/model.pt": "3b5dbc7215e6b24527028a755953ca27f368655a08b264d8cb92fa4c76dc8acd",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed43/fold4/model.pt": "4371c1c501cc203870ef422dc8861065c07ac23c9dbea7667375d21b92a7c446",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed44/oof_predictions.csv": "e645bde3ce918ac7509254a38e4cd58b7a8ed5cb6e9cc91460728acff0ff8ce4",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed44/fold0/model.pt": "5bb881244d3e550090b9c300efe0dc8c00bb885ed0e1042e58aa99e782f5585d",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed44/fold1/model.pt": "35dc960cbed580dbafdf6303e7e98a056af57fe9035f9bf1444b2e2a1c4d0879",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed44/fold2/model.pt": "4995e8c97553fa752c920da4921afca36836a870f05bef5ca00623e48f7b0c95",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed44/fold3/model.pt": "600446ac3aadc351bfab45f765e00edca41540cc9cddd7f125c6e7c225f2e932",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/seed44/fold4/model.pt": "816f5ec90095d97733b81efc153a3ff9cea7f34535651cc06568bb718b46837e"
+  },
+  "protocol": "single-modality Gaussian corruption; frozen OOF models; no retraining",
+  "units": "US: level*0.1 pixel SD; EMG/table: level training-standardized SD",
+  "uncertainty": "patient bootstrap conditional on trained models and fixed noise realizations"
+}

@@ -1,0 +1,17 @@
+comparison,metric,estimate,ci95_low,ci95_high
+noise_aug_v1/qmf minus formal_v1/qmf,roc_auc,0.014726507713884951,-0.008415147265077194,0.0406732117812062
+noise_aug_v1/qmf minus formal_v1/qmf,accuracy,0.0235294117647058,0.0,0.05882352941176472
+noise_aug_v1/qmf minus formal_v1/qmf,sensitivity,0.016129032258064613,0.0,0.048387096774193616
+noise_aug_v1/qmf minus formal_v1/qmf,specificity,0.0434782608695653,0.0,0.13043478260869568
+noise_aug_v1/qmf minus formal_v1/qmf,balanced_accuracy,0.029803646563814956,0.0,0.0813464235624124
+noise_aug_v1/qmf minus formal_v1/qmf,f1,0.01538461538461533,0.0,0.03986492286211316
+noise_aug_v1/qmf minus formal_v1/qmf,brier,-0.009798499545615597,-0.0219268590430146,0.0025674309660709965
+noise_aug_v1/qmf minus formal_v1/qmf,log_loss,-0.0243792368236046,-0.06021404073853793,0.015425394460669374
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,roc_auc,0.0014025245441794398,-0.021739130434782594,0.02103786816269282
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,accuracy,0.0117647058823529,0.0,0.03529411764705892
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,sensitivity,0.0,0.0,0.0
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,specificity,0.0434782608695653,0.0,0.13043478260869568
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,balanced_accuracy,0.021739130434782705,0.0,0.0652173913043479
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,f1,0.006928948913681787,0.0,0.021494009866102948
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,brier,-0.005191478687312734,-0.013426124156097823,0.0036431179196819096
+noise_aug_v1/qmf minus noise_aug_v1/equal_late,log_loss,-0.016009376838242162,-0.04741743029221381,0.022760360451880242
