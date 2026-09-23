@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-15",
+  "code_fingerprint": "f25138d975a7eec00bd9f8398d296d493f29546ea50d47a360b3e176d2ad9f12",
+  "tests_passed": 21,
+  "ruff_check": "passed",
+  "gpu_smoke": {
+    "equal_late": {
+      "seed": 42,
+      "fold": 0,
+      "selection_epochs": 1,
+      "refit_epochs": 1,
+      "test_patients": 17,
+      "all_trainable_parameters_received_gradients": true,
+      "parameters": 24092758,
+      "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "qmf": {
+      "seed": 42,
+      "fold": 0,
+      "selection_epochs": 1,
+      "refit_epochs": 1,
+      "test_patients": 17,
+      "all_trainable_parameters_received_gradients": true,
+      "parameters": 24092758,
+      "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "tmc": {
+      "seed": 42,
+      "fold": 0,
+      "selection_epochs": 1,
+      "refit_epochs": 1,
+      "test_patients": 17,
+      "all_trainable_parameters_received_gradients": true,
+      "parameters": 24092758,
+      "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    }
+  },
+  "resume_equivalence": "Exact CPU model-state equivalence for equal_late, qmf, tmc; CUDA interrupted continuation not tested",
+  "formal_training_started": false
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.7041014532248179,
+    "last_gradient_norm": 35.788570404052734
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.7008475363254547,
+    "last_gradient_norm": 44.35512924194336
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.6992785334587097,
+    "last_gradient_norm": 51.46120071411133
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.7168508023023605,
+    "last_gradient_norm": 61.70347213745117
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.6895759801069895,
+    "last_gradient_norm": 43.72557067871094
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.7109693537155787,
+    "last_gradient_norm": 86.63494873046875
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.6912445798516273,
+    "last_gradient_norm": 56.857112884521484
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.6747991939385732,
+    "last_gradient_norm": 93.96627044677734
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.6822266529003779,
+    "last_gradient_norm": 49.36323165893555
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.6694574182232221,
+    "last_gradient_norm": 37.239498138427734
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.7199049020806948,
+    "last_gradient_norm": 121.269287109375
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.6787184576193491,
+    "last_gradient_norm": 40.018646240234375
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.691441203157107,
+    "last_gradient_norm": 40.17934036254883
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.6969018007318178,
+    "last_gradient_norm": 104.17070770263672
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.7006964733203253,
+    "last_gradient_norm": 59.154354095458984
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.6929036205013593,
+    "last_gradient_norm": 81.87649536132812
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.6604671105742455,
+    "last_gradient_norm": 43.05960464477539
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.6564636826515198,
+    "last_gradient_norm": 44.730167388916016
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.6705892533063889,
+    "last_gradient_norm": 69.0040054321289
+  }
+]

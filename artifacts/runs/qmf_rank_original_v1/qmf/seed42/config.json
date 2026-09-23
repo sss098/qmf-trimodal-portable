@@ -1,10 +1,10 @@
 {
   "config": {
-    "source_project": "data/source",
-    "clinical_excel": "data/clinical.xlsx",
-    "raw_root": "data/raw",
-    "imagenet_weights": "weights/resnet50-11ad3fa6.pth",
-    "output": "./artifacts",
+    "source_project": "/home/wp24/mix/sarcopenia_original_us_trimodal_5fold - new",
+    "clinical_excel": "/home/wp24/mix/肌少症患者数据统计修改版2 - 副本.xlsx",
+    "raw_root": "/home/wp24/mix/更新数据",
+    "imagenet_weights": "/home/wp24/.cache/torch/hub/checkpoints/resnet50-11ad3fa6.pth",
+    "output": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts",
     "epochs": 100,
     "patience": 12,
     "batch_size": 6,

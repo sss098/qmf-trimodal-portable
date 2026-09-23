@@ -1,0 +1,38 @@
+{
+  "config": {
+    "source_project": "data/source",
+    "clinical_excel": "data/clinical.xlsx",
+    "raw_root": "data/raw",
+    "imagenet_weights": "weights/resnet50-11ad3fa6.pth",
+    "output": "artifacts",
+    "modalities": "us,emg,table",
+    "epochs": 100,
+    "patience": 100,
+    "batch_size": 6,
+    "windows_per_segment": 8,
+    "lr": 0.0002,
+    "encoder_lr": 1e-05,
+    "weight_decay": 0.001,
+    "rank_weight": 0.1,
+    "rank_mode": "positive_margin",
+    "split_seed": 20260911,
+    "device": "cuda",
+    "threads": 2,
+    "noise_probability": 0.0,
+    "us_noise_max_std": 0.1,
+    "emg_noise_max_std": 1.0,
+    "table_noise_max_std": 1.0
+  },
+  "dataset": "077bf22c53439c3abef2090859108df864eb1d3861fb556ae1b69550ad79b9b1",
+  "code": "a45d90ed056ada343e5bda6eda083f0736ffee21d4f46a3129bcd6a387d2c04c",
+  "weights": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "smoke": false,
+  "environment": {
+    "python": "3.11.5",
+    "torch": "2.4.0+cu121",
+    "cuda": "12.1",
+    "device": "NVIDIA A800-SXM4-80GB"
+  },
+  "method": "qmf",
+  "seed": 43
+}

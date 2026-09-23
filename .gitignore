@@ -9,5 +9,8 @@ __pycache__/
 weights/
 *.pt
 *.pth
+*.ckpt
+*.bin
+*.safetensors
 artifacts/prepared/
 data/

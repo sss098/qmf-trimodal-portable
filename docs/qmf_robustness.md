@@ -5,7 +5,7 @@
 ## 运行
 
 ```bash
-cd /你的路径/qmf_trimodal_portable
+cd /home/wp24/mix/qmf_trimodal_joint_v1_4
 bash scripts/evaluate_qmf_robustness.sh
 ```
 

@@ -18,7 +18,7 @@
 
 ## 对照与训练参数
 
-同一配置训练等权融合和 QMF，两者使用相同增强与划分。历史主线目录为 `artifacts/runs/noise_aug_v1/`；独立目录的启动脚本将新训练写入 `artifacts/runs/portable_noise_aug_v1/`。与历史结果对照用于观察变化，增强等权与增强 QMF 的比较用于评估动态融合在新训练条件下的作用。本轮不单独拆分轮数设置与增强的收益。
+同一配置训练等权融合和 QMF，两者使用相同增强与划分。新实验目录为 `artifacts/runs/noise_aug_v1/`。与历史结果对照用于观察变化，增强等权与增强 QMF 的比较用于评估动态融合在新训练条件下的作用。本轮不单独拆分轮数设置与增强的收益。
 
 | 参数 | 设置 |
 | --- | --- |
@@ -43,7 +43,7 @@
 ## 正式运行
 
 ```bash
-cd /你的路径/qmf_trimodal_portable
+cd /home/wp24/mix/qmf_trimodal_joint_v1_4
 bash scripts/train_noise_aug_v1.sh
 ```
 
@@ -52,10 +52,10 @@ bash scripts/train_noise_aug_v1.sh
 完成后执行同一套扰动评估：
 
 ```bash
-bash scripts/evaluate_qmf_robustness.sh --run-name portable_noise_aug_v1
+bash scripts/evaluate_qmf_robustness.sh --run-name noise_aug_v1
 ```
 
-默认评估本次增强等权融合与增强 QMF，覆盖三个种子、五折、三种模态、五档噪声和三个噪声重复；结果保存至 `reports/qmf_robustness_portable_noise_aug_v1/`。检查干净 AUC、平衡准确率、强噪声下的性能下降、q 与损失的变化，并看配对区间。
+默认评估本次增强等权融合与增强 QMF，覆盖三个种子、五折、三种模态、五档噪声和三个噪声重复；结果保存至 `reports/qmf_robustness_noise_aug_v1/`。检查干净 AUC、平衡准确率、强噪声下的性能下降、q 与损失的变化，并看配对区间。
 
 ## 快速检查
 
@@ -63,4 +63,4 @@ bash scripts/evaluate_qmf_robustness.sh --run-name portable_noise_aug_v1
 bash scripts/train_noise_aug_v1.sh --smoke
 ```
 
-仅完成种子42、折0的各一轮选轮和重训，输出至 `portable_noise_aug_v1_smoke`，用于验证训练、梯度、保存和评估流程，不用于性能结论。
+仅完成种子42、折0的各一轮选轮和重训，输出至 `noise_aug_v1_smoke`，用于验证训练、梯度、保存和评估流程，不用于性能结论。

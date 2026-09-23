@@ -1,0 +1,441 @@
+Environment ready: 2.4.0+cu121 0.19.0+cu121
+..............FFF...............FFFF.....................F...            [100%]
+=================================== FAILURES ===================================
+_________ test_cleanup_preserves_emg_parameters_outputs_and_gradients __________
+
+    def test_cleanup_preserves_emg_parameters_outputs_and_gradients():
+        from trimodal_joint.emg_model import FTTransformerRaw
+    
+>       original = archived_module("emg_model.py").FTTransformerRaw
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_cleanup_parity.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_cleanup_parity.py:15: in archived_module
+    with tarfile.open(ARCHIVE) as archive:
+         ^^^^^^^^^^^^^^^^^^^^^
+/public/software/apps/anaconda3/2023.09/lib/python3.11/tarfile.py:1804: in open
+    return func(name, "r", fileobj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/public/software/apps/anaconda3/2023.09/lib/python3.11/tarfile.py:1870: in gzopen
+    fileobj = GzipFile(name, mode + "b", compresslevel, fileobj)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'GzipFile' object has no attribute 'fileobj'") raised in repr()] GzipFile object at 0x7f107c4149d0>
+filename = PosixPath('/public/home/202621063072/qmf_necessary_20260923/archives/formal_v1_code_f25138d975a7.tar.gz')
+mode = 'rb', compresslevel = 9, fileobj = None, mtime = None
+
+    def __init__(self, filename=None, mode=None,
+                 compresslevel=_COMPRESS_LEVEL_BEST, fileobj=None, mtime=None):
+        """Constructor for the GzipFile class.
+    
+        At least one of fileobj and filename must be given a
+        non-trivial value.
+    
+        The new class instance is based on fileobj, which can be a regular
+        file, an io.BytesIO object, or any other object which simulates a file.
+        It defaults to None, in which case filename is opened to provide
+        a file object.
+    
+        When fileobj is not None, the filename argument is only used to be
+        included in the gzip file header, which may include the original
+        filename of the uncompressed file.  It defaults to the filename of
+        fileobj, if discernible; otherwise, it defaults to the empty string,
+        and in this case the original filename is not included in the header.
+    
+        The mode argument can be any of 'r', 'rb', 'a', 'ab', 'w', 'wb', 'x', or
+        'xb' depending on whether the file will be read or written.  The default
+        is the mode of fileobj if discernible; otherwise, the default is 'rb'.
+        A mode of 'r' is equivalent to one of 'rb', and similarly for 'w' and
+        'wb', 'a' and 'ab', and 'x' and 'xb'.
+    
+        The compresslevel argument is an integer from 0 to 9 controlling the
+        level of compression; 1 is fastest and produces the least compression,
+        and 9 is slowest and produces the most compression. 0 is no compression
+        at all. The default is 9.
+    
+        The mtime argument is an optional numeric timestamp to be written
+        to the last modification time field in the stream when compressing.
+        If omitted or None, the current time is used.
+    
+        """
+    
+        if mode and ('t' in mode or 'U' in mode):
+            raise ValueError("Invalid mode: {!r}".format(mode))
+        if mode and 'b' not in mode:
+            mode += 'b'
+        if fileobj is None:
+>           fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/archives/formal_v1_code_f25138d975a7.tar.gz'
+
+/public/software/apps/anaconda3/2023.09/lib/python3.11/gzip.py:174: FileNotFoundError
+__________________ test_cleanup_preserves_reference_features ___________________
+
+    def test_cleanup_preserves_reference_features():
+        from trimodal_joint.emg_features import extract_features
+    
+>       original = archived_module("emg_features.py").extract_features
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_cleanup_parity.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_cleanup_parity.py:15: in archived_module
+    with tarfile.open(ARCHIVE) as archive:
+         ^^^^^^^^^^^^^^^^^^^^^
+/public/software/apps/anaconda3/2023.09/lib/python3.11/tarfile.py:1804: in open
+    return func(name, "r", fileobj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/public/software/apps/anaconda3/2023.09/lib/python3.11/tarfile.py:1870: in gzopen
+    fileobj = GzipFile(name, mode + "b", compresslevel, fileobj)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'GzipFile' object has no attribute 'fileobj'") raised in repr()] GzipFile object at 0x7f105ca73ac0>
+filename = PosixPath('/public/home/202621063072/qmf_necessary_20260923/archives/formal_v1_code_f25138d975a7.tar.gz')
+mode = 'rb', compresslevel = 9, fileobj = None, mtime = None
+
+    def __init__(self, filename=None, mode=None,
+                 compresslevel=_COMPRESS_LEVEL_BEST, fileobj=None, mtime=None):
+        """Constructor for the GzipFile class.
+    
+        At least one of fileobj and filename must be given a
+        non-trivial value.
+    
+        The new class instance is based on fileobj, which can be a regular
+        file, an io.BytesIO object, or any other object which simulates a file.
+        It defaults to None, in which case filename is opened to provide
+        a file object.
+    
+        When fileobj is not None, the filename argument is only used to be
+        included in the gzip file header, which may include the original
+        filename of the uncompressed file.  It defaults to the filename of
+        fileobj, if discernible; otherwise, it defaults to the empty string,
+        and in this case the original filename is not included in the header.
+    
+        The mode argument can be any of 'r', 'rb', 'a', 'ab', 'w', 'wb', 'x', or
+        'xb' depending on whether the file will be read or written.  The default
+        is the mode of fileobj if discernible; otherwise, the default is 'rb'.
+        A mode of 'r' is equivalent to one of 'rb', and similarly for 'w' and
+        'wb', 'a' and 'ab', and 'x' and 'xb'.
+    
+        The compresslevel argument is an integer from 0 to 9 controlling the
+        level of compression; 1 is fastest and produces the least compression,
+        and 9 is slowest and produces the most compression. 0 is no compression
+        at all. The default is 9.
+    
+        The mtime argument is an optional numeric timestamp to be written
+        to the last modification time field in the stream when compressing.
+        If omitted or None, the current time is used.
+    
+        """
+    
+        if mode and ('t' in mode or 'U' in mode):
+            raise ValueError("Invalid mode: {!r}".format(mode))
+        if mode and 'b' not in mode:
+            mode += 'b'
+        if fileobj is None:
+>           fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/archives/formal_v1_code_f25138d975a7.tar.gz'
+
+/public/software/apps/anaconda3/2023.09/lib/python3.11/gzip.py:174: FileNotFoundError
+____ test_default_qmf_loss_preserves_archived_outputs_gradients_and_history ____
+
+    def test_default_qmf_loss_preserves_archived_outputs_gradients_and_history():
+        from trimodal_joint.fusion import fuse
+        from trimodal_joint.losses import QualityHistory, total_loss
+    
+>       old = archived_module("losses.py")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_cleanup_parity.py:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_cleanup_parity.py:15: in archived_module
+    with tarfile.open(ARCHIVE) as archive:
+         ^^^^^^^^^^^^^^^^^^^^^
+/public/software/apps/anaconda3/2023.09/lib/python3.11/tarfile.py:1804: in open
+    return func(name, "r", fileobj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/public/software/apps/anaconda3/2023.09/lib/python3.11/tarfile.py:1870: in gzopen
+    fileobj = GzipFile(name, mode + "b", compresslevel, fileobj)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'GzipFile' object has no attribute 'fileobj'") raised in repr()] GzipFile object at 0x7f1285a1eef0>
+filename = PosixPath('/public/home/202621063072/qmf_necessary_20260923/archives/formal_v1_code_f25138d975a7.tar.gz')
+mode = 'rb', compresslevel = 9, fileobj = None, mtime = None
+
+    def __init__(self, filename=None, mode=None,
+                 compresslevel=_COMPRESS_LEVEL_BEST, fileobj=None, mtime=None):
+        """Constructor for the GzipFile class.
+    
+        At least one of fileobj and filename must be given a
+        non-trivial value.
+    
+        The new class instance is based on fileobj, which can be a regular
+        file, an io.BytesIO object, or any other object which simulates a file.
+        It defaults to None, in which case filename is opened to provide
+        a file object.
+    
+        When fileobj is not None, the filename argument is only used to be
+        included in the gzip file header, which may include the original
+        filename of the uncompressed file.  It defaults to the filename of
+        fileobj, if discernible; otherwise, it defaults to the empty string,
+        and in this case the original filename is not included in the header.
+    
+        The mode argument can be any of 'r', 'rb', 'a', 'ab', 'w', 'wb', 'x', or
+        'xb' depending on whether the file will be read or written.  The default
+        is the mode of fileobj if discernible; otherwise, the default is 'rb'.
+        A mode of 'r' is equivalent to one of 'rb', and similarly for 'w' and
+        'wb', 'a' and 'ab', and 'x' and 'xb'.
+    
+        The compresslevel argument is an integer from 0 to 9 controlling the
+        level of compression; 1 is fastest and produces the least compression,
+        and 9 is slowest and produces the most compression. 0 is no compression
+        at all. The default is 9.
+    
+        The mtime argument is an optional numeric timestamp to be written
+        to the last modification time field in the stream when compressing.
+        If omitted or None, the current time is used.
+    
+        """
+    
+        if mode and ('t' in mode or 'U' in mode):
+            raise ValueError("Invalid mode: {!r}".format(mode))
+        if mode and 'b' not in mode:
+            mode += 'b'
+        if fileobj is None:
+>           fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/archives/formal_v1_code_f25138d975a7.tar.gz'
+
+/public/software/apps/anaconda3/2023.09/lib/python3.11/gzip.py:174: FileNotFoundError
+_________________ test_vector_metrics_match_sklearn_with_ties __________________
+
+    def test_vector_metrics_match_sklearn_with_ties():
+>       m = module()
+            ^^^^^^^^
+
+tests/test_diagnostics.py:17: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_diagnostics.py:12: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:936: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1073: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7f105c6c67d0>
+path = '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+<frozen importlib._bootstrap_external>:1130: FileNotFoundError
+___________ test_stratified_bootstrap_and_identical_pair_difference ____________
+
+    def test_stratified_bootstrap_and_identical_pair_difference():
+>       m = module()
+            ^^^^^^^^
+
+tests/test_diagnostics.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_diagnostics.py:12: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:936: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1073: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7f107c41e310>
+path = '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+<frozen importlib._bootstrap_external>:1130: FileNotFoundError
+______ test_quality_shift_preserves_branch_probability_but_changes_fusion ______
+
+    def test_quality_shift_preserves_branch_probability_but_changes_fusion():
+>       m = module()
+            ^^^^^^^^
+
+tests/test_diagnostics.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_diagnostics.py:12: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:936: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1073: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7f105c6c5790>
+path = '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+<frozen importlib._bootstrap_external>:1130: FileNotFoundError
+_____________________ test_constant_correlation_is_missing _____________________
+
+    def test_constant_correlation_is_missing():
+>       m = module()
+            ^^^^^^^^
+
+tests/test_diagnostics.py:47: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_diagnostics.py:12: in module
+    spec.loader.exec_module(result)
+<frozen importlib._bootstrap_external>:936: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1073: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7f107c439910>
+path = '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_diagnostics.py'
+
+<frozen importlib._bootstrap_external>:1130: FileNotFoundError
+_______ test_summary_uses_patient_pairs_and_keeps_noise_repeats_separate _______
+
+tmp_path = PosixPath('/tmp/pytest-of-202621063072/pytest-0/test_summary_uses_patient_pair0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f105c6c75d0>
+
+    def test_summary_uses_patient_pairs_and_keeps_noise_repeats_separate(tmp_path, monkeypatch):
+        import importlib.util
+        from pathlib import Path
+        from types import SimpleNamespace
+    
+        import pandas as pd
+    
+        reports = Path(__file__).resolve().parents[1] / "reports"
+        monkeypatch.syspath_prepend(str(reports))
+        spec = importlib.util.spec_from_file_location(
+            "robustness_report", reports / "qmf_robustness.py"
+        )
+        module = importlib.util.module_from_spec(spec)
+>       spec.loader.exec_module(module)
+
+tests/test_robustness.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<frozen importlib._bootstrap_external>:936: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1073: in get_code
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_frozen_importlib_external.SourceFileLoader object at 0x7f105c99c9d0>
+path = '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_robustness.py'
+
+>   ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/public/home/202621063072/qmf_necessary_20260923/reports/qmf_robustness.py'
+
+<frozen importlib._bootstrap_external>:1130: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_cleanup_parity.py::test_cleanup_preserves_emg_parameters_outputs_and_gradients
+FAILED tests/test_cleanup_parity.py::test_cleanup_preserves_reference_features
+FAILED tests/test_cleanup_parity.py::test_default_qmf_loss_preserves_archived_outputs_gradients_and_history
+FAILED tests/test_diagnostics.py::test_vector_metrics_match_sklearn_with_ties
+FAILED tests/test_diagnostics.py::test_stratified_bootstrap_and_identical_pair_difference
+FAILED tests/test_diagnostics.py::test_quality_shift_preserves_branch_probability_but_changes_fusion
+FAILED tests/test_diagnostics.py::test_constant_correlation_is_missing - File...
+FAILED tests/test_robustness.py::test_summary_uses_patient_pairs_and_keeps_noise_repeats_separate
+8 failed, 53 passed in 29.58s
+Environment ready: 2.4.0+cu121 0.19.0+cu121
+.............................................................            [100%]
+61 passed in 41.77s
+2026-09-23 12:48:51,573 INFO Prepared EMG 1/85 (s001)
+2026-09-23 12:48:52,008 INFO Prepared EMG 2/85 (s002)
+2026-09-23 12:48:52,279 INFO Prepared EMG 3/85 (s003)
+2026-09-23 12:48:52,483 INFO Prepared EMG 4/85 (n004)
+2026-09-23 12:48:52,662 INFO Prepared EMG 5/85 (n005)
+2026-09-23 12:48:46,921 INFO Prepared EMG 6/85 (s006)
+2026-09-23 12:48:47,123 INFO Prepared EMG 7/85 (s007)
+2026-09-23 12:48:47,326 INFO Prepared EMG 8/85 (n008)
+2026-09-23 12:48:47,530 INFO Prepared EMG 9/85 (s009)
+2026-09-23 12:48:47,733 INFO Prepared EMG 10/85 (s010)
+2026-09-23 12:48:47,935 INFO Prepared EMG 11/85 (s011)
+2026-09-23 12:48:48,140 INFO Prepared EMG 12/85 (n012)
+2026-09-23 12:48:48,349 INFO Prepared EMG 13/85 (s013)
+2026-09-23 12:48:48,558 INFO Prepared EMG 14/85 (s014)
+2026-09-23 12:48:48,761 INFO Prepared EMG 15/85 (n015)
+2026-09-23 12:48:49,041 INFO Prepared EMG 16/85 (s016)
+2026-09-23 12:48:49,237 INFO Prepared EMG 17/85 (s017)
+2026-09-23 12:48:49,485 INFO Prepared EMG 18/85 (s018)
+2026-09-23 12:48:49,740 INFO Prepared EMG 19/85 (s019)
+2026-09-23 12:48:49,936 INFO Prepared EMG 20/85 (s020)
+2026-09-23 12:48:50,132 INFO Prepared EMG 21/85 (s021)
+2026-09-23 12:48:50,380 INFO Prepared EMG 22/85 (s022)
+2026-09-23 12:48:50,641 INFO Prepared EMG 23/85 (s023)
+2026-09-23 12:48:50,901 INFO Prepared EMG 24/85 (n024)
+2026-09-23 12:48:51,160 INFO Prepared EMG 25/85 (s025)
+2026-09-23 12:48:51,426 INFO Prepared EMG 26/85 (n026)
+2026-09-23 12:48:51,685 INFO Prepared EMG 27/85 (s027)
+2026-09-23 12:48:51,949 INFO Prepared EMG 28/85 (s028)
+2026-09-23 12:48:52,212 INFO Prepared EMG 29/85 (s029)
+2026-09-23 12:48:52,476 INFO Prepared EMG 30/85 (n030)
+2026-09-23 12:48:52,730 INFO Prepared EMG 31/85 (s031)
+2026-09-23 12:48:52,984 INFO Prepared EMG 32/85 (n032)
+2026-09-23 12:48:53,247 INFO Prepared EMG 33/85 (s033)
+2026-09-23 12:48:53,504 INFO Prepared EMG 34/85 (s034)
+2026-09-23 12:48:53,722 INFO Prepared EMG 35/85 (s035)
+2026-09-23 12:48:53,981 INFO Prepared EMG 36/85 (s036)
+2026-09-23 12:48:54,280 INFO Prepared EMG 37/85 (s037)
+2026-09-23 12:48:54,537 INFO Prepared EMG 38/85 (n038)
+2026-09-23 12:48:54,796 INFO Prepared EMG 39/85 (s039)
+2026-09-23 12:48:55,060 INFO Prepared EMG 40/85 (s040)
+2026-09-23 12:48:55,316 INFO Prepared EMG 41/85 (n041)
+2026-09-23 12:48:55,579 INFO Prepared EMG 42/85 (n042)
+2026-09-23 12:48:55,834 INFO Prepared EMG 43/85 (s043)
+2026-09-23 12:48:56,099 INFO Prepared EMG 44/85 (s044)
+2026-09-23 12:48:56,360 INFO Prepared EMG 45/85 (s045)
+2026-09-23 12:48:56,617 INFO Prepared EMG 46/85 (s046)
+2026-09-23 12:48:56,876 INFO Prepared EMG 47/85 (n047)
+2026-09-23 12:48:57,134 INFO Prepared EMG 48/85 (s048)
+2026-09-23 12:48:57,398 INFO Prepared EMG 49/85 (s049)
+2026-09-23 12:48:57,659 INFO Prepared EMG 50/85 (s050)
+2026-09-23 12:48:57,927 INFO Prepared EMG 51/85 (n051)
+2026-09-23 12:48:58,177 INFO Prepared EMG 52/85 (s052)
+2026-09-23 12:48:58,433 INFO Prepared EMG 53/85 (n053)
+2026-09-23 12:48:58,691 INFO Prepared EMG 54/85 (n054)
+2026-09-23 12:48:58,953 INFO Prepared EMG 55/85 (n055)
+2026-09-23 12:48:59,216 INFO Prepared EMG 56/85 (s056)
+2026-09-23 12:48:59,493 INFO Prepared EMG 57/85 (s057)
+2026-09-23 12:48:59,752 INFO Prepared EMG 58/85 (s058)
+2026-09-23 12:49:00,011 INFO Prepared EMG 59/85 (s059)
+2026-09-23 12:49:00,262 INFO Prepared EMG 60/85 (s060)
+2026-09-23 12:49:00,518 INFO Prepared EMG 61/85 (s061)
+2026-09-23 12:49:00,779 INFO Prepared EMG 62/85 (s062)
+2026-09-23 12:49:01,034 INFO Prepared EMG 63/85 (s063)
+2026-09-23 12:49:01,293 INFO Prepared EMG 64/85 (s064)
+2026-09-23 12:49:01,524 INFO Prepared EMG 65/85 (n065)
+2026-09-23 12:49:01,770 INFO Prepared EMG 66/85 (s066)
+2026-09-23 12:49:02,026 INFO Prepared EMG 67/85 (s067)
+2026-09-23 12:49:02,289 INFO Prepared EMG 68/85 (s068)
+2026-09-23 12:49:02,548 INFO Prepared EMG 69/85 (s069)
+2026-09-23 12:49:02,803 INFO Prepared EMG 70/85 (s070)
+2026-09-23 12:49:03,054 INFO Prepared EMG 71/85 (s071)
+2026-09-23 12:49:03,313 INFO Prepared EMG 72/85 (s072)
+2026-09-23 12:49:03,566 INFO Prepared EMG 73/85 (s073)
+2026-09-23 12:49:03,817 INFO Prepared EMG 74/85 (n074)
+2026-09-23 12:49:04,072 INFO Prepared EMG 75/85 (n075)
+2026-09-23 12:49:04,340 INFO Prepared EMG 76/85 (s076)
+2026-09-23 12:49:04,611 INFO Prepared EMG 77/85 (s077)
+2026-09-23 12:49:04,869 INFO Prepared EMG 78/85 (n078)
+2026-09-23 12:49:05,126 INFO Prepared EMG 79/85 (s079)
+2026-09-23 12:49:05,378 INFO Prepared EMG 80/85 (n080)
+2026-09-23 12:49:05,637 INFO Prepared EMG 81/85 (n081)
+2026-09-23 12:49:05,894 INFO Prepared EMG 82/85 (s082)
+2026-09-23 12:49:06,147 INFO Prepared EMG 83/85 (s083)
+2026-09-23 12:49:06,398 INFO Prepared EMG 84/85 (s084)
+2026-09-23 12:49:06,663 INFO Prepared EMG 85/85 (s085)
+2026-09-23 12:49:07,143 INFO Prepared 85 patients, 62 positive; 95 table fields
+385199

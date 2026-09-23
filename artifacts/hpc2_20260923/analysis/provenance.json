@@ -1,0 +1,35 @@
+{
+  "patients": 85,
+  "bootstrap_repeats": 10000,
+  "seed": 20260923,
+  "sources": {
+    "us": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/hpc2_20260923/runs/necessary_us_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "3339ccca41c2900c29c68f6f213340e7a5cc33282861898a0bfee3a3a95d40c7"
+    },
+    "emg": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/hpc2_20260923/runs/necessary_emg_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "f1f1e334b2f6515c9368ad03fa4d7f2eca00bf98818e420e599556c572e47bb7"
+    },
+    "table": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/hpc2_20260923/runs/necessary_table_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "e79fb6c56071840e7ca78da3c337b81d5b974e9dd13b26560e78bca41546528b"
+    },
+    "us_table": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/hpc2_20260923/runs/necessary_us_table_v1/qmf/ensemble_predictions.csv",
+      "sha256": "9adca7ded12de6dda48a4d6d61a0524339e549c2c3b6e3df7a7f20677dc6c196"
+    },
+    "no_noise": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/ensemble_predictions.csv",
+      "sha256": "a007ad16d148fcb7cfa0869a7a1d9ed3ab77de92db50e5e9c536c93589df5647"
+    },
+    "main": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/ensemble_predictions.csv",
+      "sha256": "c06a693af348d09f09cdc27ea241eae6d39b4be94c26db2918ecf0f450f1cc07"
+    },
+    "equal": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "04bd348b36900d24408890a7a03ef4ac3835c3454a9eb229de20868f4ee647fc"
+    }
+  }
+}

@@ -167,12 +167,12 @@ QMF 与等权融合的 AUC 差值为 0.0161，95% CI 为 −0.0196～0.0554，�
 
 ## 7. 文件与复现
 
-- 详细 q–loss、尺度和置信区间数据：[qmf_diagnostics](../reports/qmf_diagnostics/report.md)。
-- 消融训练说明与命令：[qmf_ablations.md](qmf_ablations.md)。
-- 去掉排序项结果：[qmf_rank0_v1](../artifacts/runs/qmf_rank0_v1/qmf/summary.json)。
-- 原仓库排序结果：[qmf_rank_original_v1](../artifacts/runs/qmf_rank_original_v1/qmf/summary.json)。
-- 相关性明细：[correlations.csv](../reports/qmf_diagnostics/correlations.csv)。
-- 尺度分布明细：[scale_distribution.csv](../reports/qmf_diagnostics/scale_distribution.csv)。
-- 置信区间明细：[metrics_ci.csv](../reports/qmf_diagnostics/metrics_ci.csv)。
+- 详细 q–loss、尺度和置信区间数据：[qmf_diagnostics](/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_diagnostics/report.md)。
+- 消融训练说明与命令：[qmf_ablations.md](/home/wp24/mix/qmf_trimodal_joint_v1_4/docs/qmf_ablations.md)。
+- 去掉排序项结果：[qmf_rank0_v1](/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank0_v1/qmf/summary.json)。
+- 原仓库排序结果：[qmf_rank_original_v1](/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/qmf_rank_original_v1/qmf/summary.json)。
+- 相关性明细：[correlations.csv](/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_diagnostics/correlations.csv)。
+- 尺度分布明细：[scale_distribution.csv](/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_diagnostics/scale_distribution.csv)。
+- 置信区间明细：[metrics_ci.csv](/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_diagnostics/metrics_ci.csv)。
 
 统计分析只使用患者级折外预测；消融结果使用完整五折训练。所有实验的训练、验证和测试患者保持隔离。

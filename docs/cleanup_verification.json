@@ -1,0 +1,29 @@
+{
+  "tests_passed": 23,
+  "ruff": "all owned code passed",
+  "original_code": "f25138d975a7eec00bd9f8398d296d493f29546ea50d47a360b3e176d2ad9f12",
+  "cleaned_code": "6b4e3ccf8c4d4172b87c01daaa49cc8f8533fe8cd48566b33a19c1e9363c3127",
+  "archive_sha256_verified": true,
+  "original_code_extraction_verified": true,
+  "formal_artifacts_unchanged": 754,
+  "final_models": 45,
+  "resume_checkpoints": 90,
+  "statistics_json_equal": true,
+  "deleted": [
+    {
+      "path": "artifacts/runs/verification01_smoke",
+      "bytes": 1641608419,
+      "files": 49
+    },
+    {
+      "path": "artifacts/runs/verification02_smoke",
+      "bytes": 2027966376,
+      "files": 64
+    },
+    {
+      "path": "artifacts/prepared/a145812450270338f073d6fc91d9777ba05a1d138fbc1e35662037d74c2fa757",
+      "bytes": 499947409,
+      "files": 7
+    }
+  ]
+}

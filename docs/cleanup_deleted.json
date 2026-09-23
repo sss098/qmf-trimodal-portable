@@ -1,0 +1,17 @@
+[
+  {
+    "path": "artifacts/runs/verification01_smoke",
+    "bytes": 1641608419,
+    "files": 49
+  },
+  {
+    "path": "artifacts/runs/verification02_smoke",
+    "bytes": 2027966376,
+    "files": 64
+  },
+  {
+    "path": "artifacts/prepared/a145812450270338f073d6fc91d9777ba05a1d138fbc1e35662037d74c2fa757",
+    "bytes": 499947409,
+    "files": 7
+  }
+]

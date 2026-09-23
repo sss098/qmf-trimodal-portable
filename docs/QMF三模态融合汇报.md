@@ -415,7 +415,7 @@ TMC 的 ROC-AUC 最高，但在 0.5 阈值下更倾向于预测正类：识别�
 
 QMF 相比等权融合的 AUC 差值为 0.0161，95% CI 为 -0.0196～0.0554，包含 0。因此，目前的结果是点估计提高，多正确识别 1 人；排序项的作用将通过无排序、原排序与当前排序的消融进一步比较。
 
-完整相关性、尺度分布及各项指标区间见[补充分析报告](../reports/qmf_diagnostics/report.md)，消融设置见[训练说明](qmf_ablations.md)。
+完整相关性、尺度分布及各项指标区间见[补充分析报告](/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_diagnostics/report.md)，消融设置见[训练说明](/home/wp24/mix/qmf_trimodal_joint_v1_4/docs/qmf_ablations.md)。
 
 ## 9. 在原 QMF 仓库上做了哪些适配
 
@@ -531,8 +531,8 @@ $$
 
 代码位于 `qmf_trimodal_joint_v1_4`，实验编号为 `formal_v1`。下列文件分别对应本文的数据处理、网络、训练和结果分析。
 
-- 数据处理：[data.py](../src/trimodal_joint/data.py)、[raw.py](../src/trimodal_joint/raw.py)、[features.py](../src/trimodal_joint/features.py)。
-- 网络与融合：[models.py](../src/trimodal_joint/models.py)、[emg_model.py](../src/trimodal_joint/emg_model.py)、[fusion.py](../src/trimodal_joint/fusion.py)。
-- 损失与训练：[losses.py](../src/trimodal_joint/losses.py)、[training.py](../src/trimodal_joint/training.py)、[base.yaml](../configs/base.yaml)。
-- 结果数据：[formal_v1_analysis.json](../reports/formal_v1_analysis.json)。
-- 原 QMF 排序实现：[train_QMF_nyud2.py](../third_party/qmf_reference/train_QMF_nyud2.py)。
+- 数据处理：[data.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/data.py)、[raw.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/raw.py)、[features.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/features.py)。
+- 网络与融合：[models.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/models.py)、[emg_model.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/emg_model.py)、[fusion.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/fusion.py)。
+- 损失与训练：[losses.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/losses.py)、[training.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/src/trimodal_joint/training.py)、[base.yaml](/home/wp24/mix/qmf_trimodal_joint_v1_4/configs/base.yaml)。
+- 结果数据：[formal_v1_analysis.json](/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/formal_v1_analysis.json)。
+- 原 QMF 排序实现：[train_QMF_nyud2.py](/home/wp24/mix/qmf_trimodal_joint_v1_4/third_party/qmf_reference/train_QMF_nyud2.py)。

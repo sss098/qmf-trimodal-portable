@@ -1,0 +1,96 @@
+index,group,source_field,english_description
+1,Clinical,性别_男,Male sex
+2,Clinical,年龄,Age
+3,Clinical,发病天数,Days since onset
+4,Clinical,每日康复分钟,Daily rehabilitation duration
+5,Clinical,身高,Height
+6,Clinical,体重,Weight
+7,Clinical,BMI,Body mass index
+8,Clinical,Morse,Morse score
+9,Clinical,FOIS,Functional Oral Intake Scale score
+10,Clinical,NRS2002,Nutritional Risk Screening 2002 score
+11,Clinical,ADL,Activities of daily living score
+12,Clinical,糖尿病,Diabetes
+13,Clinical,高血压,Hypertension
+14,Clinical,心脏病,Heart disease
+15,Clinical,出血性卒中,Hemorrhagic stroke
+16,Clinical,吸烟,Smoking
+17,Clinical,饮酒,Alcohol consumption
+18,Clinical,卒中家族史,Family history of stroke
+19,Clinical,既往跌倒,Previous falls
+20,Clinical,疼痛,Pain
+21,Clinical,独立行走,Independent walking
+22,Clinical,胃管,Gastric tube
+23,Clinical,独居,Living alone
+24,Clinical,与配偶居住,Living with spouse
+25,Clinical,与子女居住,Living with children
+26,Clinical,集体居住,Communal residence
+27,Clinical,病灶_额叶,Frontal lesion
+28,Clinical,病灶_顶叶,Parietal lesion
+29,Clinical,病灶_颞叶,Temporal lesion
+30,Clinical,病灶_枕叶,Occipital lesion
+31,Clinical,病灶_基底节,Basal ganglia lesion
+32,Clinical,病灶_丘脑,Thalamic lesion
+33,Clinical,病灶_脑干,Brainstem lesion
+34,Clinical,病灶_小脑,Cerebellar lesion
+35,Clinical,病灶_放射冠,Corona radiata lesion
+36,Clinical,病灶_内囊,Internal capsule lesion
+37,Clinical,病灶_脑室,Ventricular lesion
+38,Clinical,左侧偏瘫,Left hemiplegia
+39,Clinical,小腿围_患侧,Affected-side calf circumference
+40,Clinical,小腿围_健侧,Unaffected-side calf circumference
+41,Laboratory,血液_CRP,C-reactive protein
+42,Laboratory,血液_白细胞计数,White blood cell count
+43,Laboratory,血液_中性粒细胞,Neutrophil count
+44,Laboratory,血液_淋巴细胞绝对值,Absolute lymphocyte count
+45,Laboratory,血液_嗜酸性粒细胞,Eosinophil count
+46,Laboratory,血液_嗜碱性粒细胞,Basophil count
+47,Laboratory,血液_单核细胞绝对值,Absolute monocyte count
+48,Laboratory,血液_中性粒细胞百分数,Neutrophil percentage
+49,Laboratory,血液_淋巴细胞百分数,Lymphocyte percentage
+50,Laboratory,血液_嗜酸性粒细胞百分数,Eosinophil percentage
+51,Laboratory,血液_嗜碱性粒细胞百分数,Basophil percentage
+52,Laboratory,血液_单核细胞百分数,Monocyte percentage
+53,Laboratory,血液_红细胞计数,Red blood cell count
+54,Laboratory,血液_血红蛋白,Hemoglobin
+55,Laboratory,血液_红细胞比容,Hematocrit
+56,Laboratory,血液_平均红细胞容积,Mean corpuscular volume
+57,Laboratory,血液_平均红细胞血红蛋白量,Mean corpuscular hemoglobin
+58,Laboratory,血液_平均红细胞血红蛋白浓度,Mean corpuscular hemoglobin concentration
+59,Laboratory,血液_红细胞体积分布宽度,Red cell distribution width
+60,Laboratory,血液_血小板计数,Platelet count
+61,Laboratory,血液_平均血小板体积,Mean platelet volume
+62,Laboratory,血液_血小板比积,Plateletcrit
+63,Laboratory,血液_血小板体积分布宽度,Platelet distribution width
+64,Laboratory,血液_有核红细胞绝对数,Absolute nucleated red blood cell count
+65,Laboratory,血液_有核红细胞百分数,Nucleated red blood cell percentage
+66,Laboratory,血液_肾小球滤过率估算值,Estimated glomerular filtration rate
+67,Laboratory,血液_间接胆红素,Indirect bilirubin
+68,Laboratory,血液_AST/AL比值,AST/AL ratio (source terminology)
+69,Laboratory,血液_白/球蛋白比值,Albumin/globulin ratio
+70,Laboratory,血液_尿素氮肌酐比值,Blood urea nitrogen/creatinine ratio
+71,Laboratory,血液_球蛋白,Globulin
+72,Laboratory,血液_阴离子间隙,Anion gap
+73,Laboratory,血液_渗透压,Osmolality
+74,Laboratory,血液_钾,Potassium
+75,Laboratory,血液_钠,Sodium
+76,Laboratory,血液_氯,Chloride
+77,Laboratory,血液_总钙,Total calcium
+78,Laboratory,血液_尿素,Urea
+79,Laboratory,血液_肌酐,Creatinine
+80,Laboratory,血液_总二氧化碳,Total carbon dioxide
+81,Laboratory,血液_葡萄糖,Glucose
+82,Laboratory,血液_尿酸,Uric acid
+83,Laboratory,血液_总胆固醇,Total cholesterol
+84,Laboratory,血液_甘油三酯,Triglycerides
+85,Laboratory,血液_高密度脂蛋白胆固醇,High-density lipoprotein cholesterol
+86,Laboratory,血液_低密度脂蛋白胆固醇,Low-density lipoprotein cholesterol
+87,Laboratory,血液_总蛋白,Total protein
+88,Laboratory,血液_白蛋白,Albumin
+89,Laboratory,血液_总胆红素,Total bilirubin
+90,Laboratory,血液_直接胆红素,Direct bilirubin
+91,Laboratory,血液_丙氨酸氨基转移酶,Alanine aminotransferase
+92,Laboratory,血液_天门冬氨酸氨基转移酶,Aspartate aminotransferase
+93,Laboratory,血液_谷氨酸氨基转移酶,Glutamate aminotransferase (source terminology)
+94,Laboratory,血液_碱性磷酸酶,Alkaline phosphatase
+95,Laboratory,血液_同型半胱氨酸,Homocysteine
