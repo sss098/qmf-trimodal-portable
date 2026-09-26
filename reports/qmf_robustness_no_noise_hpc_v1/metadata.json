@@ -1,0 +1,53 @@
+{
+  "run_name": "necessary_no_noise_v1",
+  "settings": [
+    "positive_margin"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "levels": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "noise_repeats": 3,
+  "bootstrap": 10000,
+  "smoke": false,
+  "diagnostics_only": false,
+  "source_sha256": {
+    "artifacts/hpc2_20260923/prepared/077bf22c53439c3abef2090859108df864eb1d3861fb556ae1b69550ad79b9b1/manifest.json": "dbc5bd1bc85c4c2f56479c938026e0d75fb07a822e0848baa29e8f48f9f388e0",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed42/oof_predictions.csv": "a5b487b5078fdab8c4e997d5810d0542891f59ea6a08cd55d28ef3007b8071ce",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed42/fold0/model.pt": "d2f1542f1b37239ba26f652d7e082ad42899e03cf06090ee67b0546dd7cd51cd",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed42/fold1/model.pt": "005f8d1ee28ddbec230d2316e81834c82a4694985417be02b6c2d9e0f6c18ce2",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed42/fold2/model.pt": "6f2c13147a6d80146ea5da46f79d13ea701ee57b4bd4e1656fb03ff3859268cd",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed42/fold3/model.pt": "36133528facdbbca2ed8d4b3c1d583de1258943015082087e442c6dc584e7981",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed42/fold4/model.pt": "c79aa1750ace76cb754f732605f1befc4515c3ce1b9936932bffd353e67babb6",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed43/oof_predictions.csv": "20470045de5ef563487fa7270ff4f5cbc099f5dbec2c57771928b50e57f1947b",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed43/fold0/model.pt": "aaaec04de236250ab69c6a69de64cfc44cf30035b0c2feeea8c94bd447373895",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed43/fold1/model.pt": "6042de59010d443683a72b8759f5b2e761bf6c10ea9875a6d81e8c593cb445eb",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed43/fold2/model.pt": "60ea855fbf9fbeb8e9489ad7d29de03cd2cb8e83b42cfb44eafd5fa6eca2185c",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed43/fold3/model.pt": "8e68edab5ead54a379f5c5db3ace566074cfc2348e65f46b02f793c0fa594858",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed43/fold4/model.pt": "1ec55d75c9d17a79b122c9ad487009fd5efbf5bf7607bb4944e737ed316262a1",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed44/oof_predictions.csv": "684ac7dceca2748cad7fc778fed4fd6d799bceb1bde7e0678bcda37f1c46d02b",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed44/fold0/model.pt": "87599be8e6366d8018fdfd5567bf72621d4c9e5adf330821d3a4e65f0a3562ff",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed44/fold1/model.pt": "f909f03aaebd4fba76f7e53b6421e60010217e06530593c50e552fb1d1a3d1f8",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed44/fold2/model.pt": "e32d6bb1a6b7dafad7243cf83227d6f1ff7d7f42f051ccb955d5d7bc8373bc9e",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed44/fold3/model.pt": "a9e5140bcf7da950798b74b85a99e64b7742b217c46889eb70808461c19d9605",
+    "artifacts/hpc2_20260923/runs/necessary_no_noise_v1/qmf/seed44/fold4/model.pt": "f3b46940f84e37810b5e7b195b9d04115e81ed83b0d41a345e3e4fc188a3ef56"
+  },
+  "protocol": "single-modality Gaussian corruption; frozen OOF models; no retraining",
+  "units": "US: level*0.1 pixel SD; EMG/table: level training-standardized SD",
+  "uncertainty": "patient bootstrap conditional on trained models and fixed noise realizations"
+}

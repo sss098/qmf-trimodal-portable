@@ -1,0 +1,71 @@
+{
+  "parameters": {
+    "C": 0.1,
+    "l1_ratio": 0.5
+  },
+  "trials": [
+    {
+      "parameters": {
+        "C": 0.01,
+        "l1_ratio": 0.1
+      },
+      "validation_log_loss": 0.6107077598571777
+    },
+    {
+      "parameters": {
+        "C": 0.01,
+        "l1_ratio": 0.5
+      },
+      "validation_log_loss": 0.7024808526039124
+    },
+    {
+      "parameters": {
+        "C": 0.01,
+        "l1_ratio": 0.9
+      },
+      "validation_log_loss": 0.6995118260383606
+    },
+    {
+      "parameters": {
+        "C": 0.1,
+        "l1_ratio": 0.1
+      },
+      "validation_log_loss": 0.40209928154945374
+    },
+    {
+      "parameters": {
+        "C": 0.1,
+        "l1_ratio": 0.5
+      },
+      "validation_log_loss": 0.397122859954834
+    },
+    {
+      "parameters": {
+        "C": 0.1,
+        "l1_ratio": 0.9
+      },
+      "validation_log_loss": 0.4365854263305664
+    },
+    {
+      "parameters": {
+        "C": 1.0,
+        "l1_ratio": 0.1
+      },
+      "validation_log_loss": 0.4073146879673004
+    },
+    {
+      "parameters": {
+        "C": 1.0,
+        "l1_ratio": 0.5
+      },
+      "validation_log_loss": 0.42839133739471436
+    },
+    {
+      "parameters": {
+        "C": 1.0,
+        "l1_ratio": 0.9
+      },
+      "validation_log_loss": 0.402325302362442
+    }
+  ]
+}

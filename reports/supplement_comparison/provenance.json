@@ -1,0 +1,47 @@
+{
+  "sources": {
+    "main": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/ensemble_predictions.csv",
+      "sha256": "c06a693af348d09f09cdc27ea241eae6d39b4be94c26db2918ecf0f450f1cc07"
+    },
+    "combined": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/hpc2_20260923/runs/necessary_table_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "e79fb6c56071840e7ca78da3c337b81d5b974e9dd13b26560e78bca41546528b"
+    },
+    "rank0": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_rank0_v1/qmf/ensemble_predictions.csv",
+      "sha256": "15c294dc71e359b4a098163206b7e9f05987c0634b8b4d4a121c992eb619c7fb"
+    },
+    "tmc": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_tmc_v1/tmc/ensemble_predictions.csv",
+      "sha256": "4076a6492984399e63029faefd0dd6dc7d65e922ad8897af8a222af16a793af6"
+    },
+    "no_noise": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/ensemble_predictions.csv",
+      "sha256": "5ba494f97185a7945e3c23852db7ae90782fd1b560e5f13f238538d3eee1fafe"
+    },
+    "clinical": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_clinical_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "4cbb65c445d677e3a99d7f5c2c9f5766597aa913826892ebdd7db842946f9dac"
+    },
+    "blood": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_blood_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "885c83302e0e8fdd2dc00b92093165d59dea8da3dabdc29be853b5d11cf45c45"
+    },
+    "no_calf": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_calf_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "d49f9467c4d77ef9381cbe73a07ec636788344d7b089b6dc447eb1a46b82bd92"
+    },
+    "elastic_net": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_classical_v1/elastic_net/ensemble_predictions.csv",
+      "sha256": "80807e8ed480494f74a954af534e90e91098efa7a3d1335d43edebb559145fa5"
+    },
+    "xgboost": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_classical_v1/xgboost/ensemble_predictions.csv",
+      "sha256": "ecf57edd130b276308358096450f68ff18e258813f8ed59c2e0595fe10173b6f"
+    }
+  },
+  "n": 85,
+  "bootstrap": 10000,
+  "uncertainty": "Patient bootstrap conditional on fitted models; exploratory comparisons"
+}

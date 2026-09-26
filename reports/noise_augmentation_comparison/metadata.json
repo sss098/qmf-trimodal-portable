@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_robustness_noise_aug_v1/ensemble_predictions.csv": "dc70f5eb092511e7db2f9bc782ed1255a06ec2f2a01745d82822a7c0251a23d0",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_robustness_supplement_no_noise_v1/ensemble_predictions.csv": "ba71ff37bc821a898a1a06947c42565ffe1b6c9fde1acb07c71569227cb5fbc8"
+  },
+  "bootstrap": 10000,
+  "caveat": "Matched local preprocessing; conditional patient-paired comparison.",
+  "legacy_hpc": false
+}

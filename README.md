@@ -4,6 +4,8 @@
 
 > GitHub 提交版本为代码与结果归档：为保护患者级原始数据并控制仓库体积，`data/`、`weights/`、`*.pt`、`*.pth` 以及 `artifacts/prepared/` 不纳入版本库；实验指标、预测、配置、报告和文档会保留。
 
+2026-09-24 完成的补充实验结果见 `artifacts/runs/supplement_*/`，汇总分析见 `reports/supplement_comparison/` 与 `reports/no_calf_followups/`。传统模型的 `*.joblib` 与逐患者临床测量表同样不纳入公开版本库。
+
 ## 换机器后如何运行
 
 推荐 Linux 或 WSL2、Python 3.11。训练与完整扰动评估使用可用的 NVIDIA GPU；代码和数据可离线复制，首次安装 Python 依赖需要联网或准备离线安装包。

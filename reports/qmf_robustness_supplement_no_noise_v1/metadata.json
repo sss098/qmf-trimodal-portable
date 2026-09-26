@@ -1,0 +1,53 @@
+{
+  "run_name": "supplement_no_noise_v1",
+  "settings": [
+    "positive_margin"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "levels": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "noise_repeats": 3,
+  "bootstrap": 10000,
+  "smoke": false,
+  "diagnostics_only": false,
+  "source_sha256": {
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/prepared/e65cd77846eb1a05301d8313f816b4e11722d47aeb191747801cbb93a6b70989/manifest.json": "e55b19113c67178d42b5c566e1715f52b21ffeb5d222589a2b73fc83dfba28db",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed42/oof_predictions.csv": "1f5d88f8844eb670ba9cc0e541a0decbff5150f2951a76531f88f4b980307ef0",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed42/fold0/model.pt": "c03a97d4c16fdc3b628d57ce7df2ba866e99819007f28902f856ba3359b08626",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed42/fold1/model.pt": "e50d52e8c659cfbcfa63b68362777650e51e0314250657eaf71f124b29c7bd2a",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed42/fold2/model.pt": "6e5e34e6f73f2fcf03c9e46f3f6edc75767d09f0159b1957939abdf840692802",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed42/fold3/model.pt": "0a3bf75a5cd05c8930ef31d0ac4400948941e7e8eaf20cc42d81009b2768bec8",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed42/fold4/model.pt": "00af37e1c3c6195259f3c74c430d9b1dc4eaf778869ccbbb2fb28e225e08bc9d",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed43/oof_predictions.csv": "771d454797f0b0b27a22fa4594aafb3b15b3d8a361e70f944b51a1346b17ba07",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed43/fold0/model.pt": "5b0f2ce47cf1ae305df7748c65dcd654183b9f1b7093893c2e95e1a7bf66bfd4",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed43/fold1/model.pt": "10856380671d0deb0b9dd0d9a3e8141bda7d28502651009eedaaea3ee5ddc9b8",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed43/fold2/model.pt": "4edd0fcbecb618ac5180cf19ea78a35b83d52a17c860ca77a89b3ca5727f2d99",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed43/fold3/model.pt": "34a07542b08ea2ef4222381051169e524a4f1124fd97ea97f60710e820586e7a",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed43/fold4/model.pt": "e07b520efa409887f7e2bfd5bad7155d2588d88aafa5b00c3367b1a3d8cf5635",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed44/oof_predictions.csv": "65f77ca72d68f7a7f4baf9a791478582f72ea34421c93f726bf81492b3975bde",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed44/fold0/model.pt": "0a26ded126f3d196b36454dbf5eda9a5a8c8e31a62874edf5e29a71f021cdea2",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed44/fold1/model.pt": "50e80ce7c8969d7ba44a2cbf1dbe54f11f105f359a7c0f8b8448980dd4f45d34",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed44/fold2/model.pt": "43365b190a6ea242ad94fecf6460c1cc1887a1d7f01c0a7acc2c64e5fab9e33c",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed44/fold3/model.pt": "f384b5050fdbb031ca4601ed755617a428f38c3aa4fb18a43989f408192af87f",
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_no_noise_v1/qmf/seed44/fold4/model.pt": "6ed35dd76d030599fe480e5c88db0744c12a0667152c3a42f2433ed7f92993b5"
+  },
+  "protocol": "single-modality Gaussian corruption; frozen OOF models; no retraining",
+  "units": "US: level*0.1 pixel SD; EMG/table: level training-standardized SD",
+  "uncertainty": "patient bootstrap conditional on trained models and fixed noise realizations"
+}

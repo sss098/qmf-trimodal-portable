@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "/home/wp24/mix/qmf_trimodal_joint_v1_4/reports/qmf_robustness_noise_aug_v1/ensemble_predictions.csv": "dc70f5eb092511e7db2f9bc782ed1255a06ec2f2a01745d82822a7c0251a23d0",
+    "reports/qmf_robustness_no_noise_hpc_v1/ensemble_predictions.csv": "6a5b788595b75e4dfbb03ddbe63b3555ce19f5bfb2c8bfdb0c055b40f4ab8517"
+  },
+  "bootstrap": 10000,
+  "caveat": "Legacy HPC s031 EMG preprocessing differs from the main local cache; descriptive only, not a pure augmentation ablation.",
+  "legacy_hpc": true
+}

@@ -1,0 +1,22 @@
+{
+  "n": 85,
+  "folder_positive": 62,
+  "folder_excel_mismatches": 0,
+  "low_mass": 62,
+  "low_strength": 63,
+  "mass_and_strength_positive": 53,
+  "awgs_indeterminate": 9,
+  "awgs_determinate_disagreements": 0,
+  "endpoint": "Original directory labels; no relabeling or split changes",
+  "limitations": [
+    "Available Excel contains a recorded muscle mass index, not original DXA limb masses/reports.",
+    "DXA measurement method, index units kg/m² and grip protocol require source verification.",
+    "No AWGS gait speed/SPPB/chair-stand measurements identified; independent walking is not a substitute.",
+    "Conditional calculations do not constitute verification of the original DXA diagnosis."
+  ],
+  "consensus": "https://pubmed.ncbi.nlm.nih.gov/32033882/",
+  "source_sha256": {
+    "/home/wp24/mix/肌少症患者数据统计修改版2 - 副本.xlsx": "1efedf06fa9ea26803b2f1bd59b5f372512287b0e39d82f17266efa847e886e5",
+    "/home/wp24/mix/sarcopenia_original_us_trimodal_5fold - new/data/blood/blood_clinical_labs.xlsx": "8c3a09bb3ba6003927c3d3c7bcfe77158e7324d9a28e9e89f95aa9e720e86726"
+  }
+}

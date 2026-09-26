@@ -1,0 +1,8 @@
+{
+  "patients": 85,
+  "positive": 62,
+  "source_hashes_verified": true,
+  "full_oof_verified": true,
+  "additional_bootstrap": 10000,
+  "bootstrap_seed": 20260924
+}

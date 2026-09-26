@@ -1,0 +1,155 @@
+[
+  {
+    "patient_id": "s009",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.14543572068214417,
+    "prediction": 0,
+    "table_score_0": 0.5645356774330139,
+    "table_score_1": -1.2063218355178833
+  },
+  {
+    "patient_id": "s016",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.998306155204773,
+    "prediction": 1,
+    "table_score_0": -3.8802971839904785,
+    "table_score_1": 2.4987850189208984
+  },
+  {
+    "patient_id": "n024",
+    "fold": 2,
+    "label": 0,
+    "probability": 0.006448726169764996,
+    "prediction": 0,
+    "table_score_0": 2.2959961891174316,
+    "table_score_1": -2.7414069175720215
+  },
+  {
+    "patient_id": "n032",
+    "fold": 2,
+    "label": 0,
+    "probability": 0.9666415452957153,
+    "prediction": 1,
+    "table_score_0": -2.359677314758301,
+    "table_score_1": 1.0068377256393433
+  },
+  {
+    "patient_id": "s036",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9733341932296753,
+    "prediction": 1,
+    "table_score_0": -2.3101799488067627,
+    "table_score_1": 1.2871661186218262
+  },
+  {
+    "patient_id": "s037",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9995686411857605,
+    "prediction": 1,
+    "table_score_0": -4.842233180999756,
+    "table_score_1": 2.905799388885498
+  },
+  {
+    "patient_id": "n038",
+    "fold": 2,
+    "label": 0,
+    "probability": 0.011897900141775608,
+    "prediction": 0,
+    "table_score_0": 1.958480715751648,
+    "table_score_1": -2.4609432220458984
+  },
+  {
+    "patient_id": "s048",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9966880679130554,
+    "prediction": 1,
+    "table_score_0": -3.48413348197937,
+    "table_score_1": 2.222780704498291
+  },
+  {
+    "patient_id": "s050",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9914469718933105,
+    "prediction": 1,
+    "table_score_0": -2.9612128734588623,
+    "table_score_1": 1.7916721105575562
+  },
+  {
+    "patient_id": "n054",
+    "fold": 2,
+    "label": 0,
+    "probability": 0.3100184202194214,
+    "prediction": 0,
+    "table_score_0": 0.20106439292430878,
+    "table_score_1": -0.5989688038825989
+  },
+  {
+    "patient_id": "s063",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9964717626571655,
+    "prediction": 1,
+    "table_score_0": -3.4722938537597656,
+    "table_score_1": 2.171110153198242
+  },
+  {
+    "patient_id": "s064",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9876612424850464,
+    "prediction": 1,
+    "table_score_0": -2.83540415763855,
+    "table_score_1": 1.5471872091293335
+  },
+  {
+    "patient_id": "s066",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9872493147850037,
+    "prediction": 1,
+    "table_score_0": -2.678873062133789,
+    "table_score_1": 1.6704638004302979
+  },
+  {
+    "patient_id": "s070",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9830705523490906,
+    "prediction": 1,
+    "table_score_0": -2.6664934158325195,
+    "table_score_1": 1.3951361179351807
+  },
+  {
+    "patient_id": "s079",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9903776049613953,
+    "prediction": 1,
+    "table_score_0": -3.053492546081543,
+    "table_score_1": 1.5804940462112427
+  },
+  {
+    "patient_id": "n080",
+    "fold": 2,
+    "label": 0,
+    "probability": 0.1385522484779358,
+    "prediction": 0,
+    "table_score_0": 0.6887573003768921,
+    "table_score_1": -1.1386096477508545
+  },
+  {
+    "patient_id": "s083",
+    "fold": 2,
+    "label": 1,
+    "probability": 0.9976734519004822,
+    "prediction": 1,
+    "table_score_0": -3.814051628112793,
+    "table_score_1": 2.246981143951416
+  }
+]

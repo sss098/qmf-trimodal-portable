@@ -1,0 +1,105 @@
+{
+  "parameters": {
+    "max_depth": 2,
+    "n_estimators": 100,
+    "reg_lambda": 1.0
+  },
+  "trials": [
+    {
+      "parameters": {
+        "max_depth": 1,
+        "n_estimators": 50,
+        "reg_lambda": 1.0
+      },
+      "validation_log_loss": 0.23274673521518707
+    },
+    {
+      "parameters": {
+        "max_depth": 1,
+        "n_estimators": 50,
+        "reg_lambda": 10.0
+      },
+      "validation_log_loss": 0.420210063457489
+    },
+    {
+      "parameters": {
+        "max_depth": 1,
+        "n_estimators": 100,
+        "reg_lambda": 1.0
+      },
+      "validation_log_loss": 0.18216530978679657
+    },
+    {
+      "parameters": {
+        "max_depth": 1,
+        "n_estimators": 100,
+        "reg_lambda": 10.0
+      },
+      "validation_log_loss": 0.3056579828262329
+    },
+    {
+      "parameters": {
+        "max_depth": 2,
+        "n_estimators": 50,
+        "reg_lambda": 1.0
+      },
+      "validation_log_loss": 0.24383462965488434
+    },
+    {
+      "parameters": {
+        "max_depth": 2,
+        "n_estimators": 50,
+        "reg_lambda": 10.0
+      },
+      "validation_log_loss": 0.435354083776474
+    },
+    {
+      "parameters": {
+        "max_depth": 2,
+        "n_estimators": 100,
+        "reg_lambda": 1.0
+      },
+      "validation_log_loss": 0.1745428889989853
+    },
+    {
+      "parameters": {
+        "max_depth": 2,
+        "n_estimators": 100,
+        "reg_lambda": 10.0
+      },
+      "validation_log_loss": 0.33241215348243713
+    },
+    {
+      "parameters": {
+        "max_depth": 3,
+        "n_estimators": 50,
+        "reg_lambda": 1.0
+      },
+      "validation_log_loss": 0.24383462965488434
+    },
+    {
+      "parameters": {
+        "max_depth": 3,
+        "n_estimators": 50,
+        "reg_lambda": 10.0
+      },
+      "validation_log_loss": 0.435354083776474
+    },
+    {
+      "parameters": {
+        "max_depth": 3,
+        "n_estimators": 100,
+        "reg_lambda": 1.0
+      },
+      "validation_log_loss": 0.1745428889989853
+    },
+    {
+      "parameters": {
+        "max_depth": 3,
+        "n_estimators": 100,
+        "reg_lambda": 10.0
+      },
+      "validation_log_loss": 0.33241215348243713
+    }
+  ]
+}

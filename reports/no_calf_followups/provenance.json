@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "clinical": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_clinical_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "4cbb65c445d677e3a99d7f5c2c9f5766597aa913826892ebdd7db842946f9dac"
+    },
+    "clinical_no_calf": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_clinical_no_calf_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "45a715614aa2f924f327cff724f60dcde30d7cdd698cf43bc7edcb52f4ebc0f7"
+    },
+    "qmf": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/qmf/ensemble_predictions.csv",
+      "sha256": "c06a693af348d09f09cdc27ea241eae6d39b4be94c26db2918ecf0f450f1cc07"
+    },
+    "qmf_no_calf": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_trimodal_no_calf_v1/qmf/ensemble_predictions.csv",
+      "sha256": "0af8add8a97b3eabd926a9918fc4edda08fd5da60f37ffc6e59fee35d4da404a"
+    },
+    "equal": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/noise_aug_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "04bd348b36900d24408890a7a03ef4ac3835c3454a9eb229de20868f4ee647fc"
+    },
+    "equal_no_calf": {
+      "path": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts/runs/supplement_trimodal_no_calf_v1/equal_late/ensemble_predictions.csv",
+      "sha256": "d14003ee97350e21a6a9c84e9556dd02a52e840dbf2715d54f05303d483fbac2"
+    }
+  },
+  "independent_unit": "85 patients",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260924,
+  "interpretation": "Exploratory paired intervals, no multiple-comparison adjustment"
+}

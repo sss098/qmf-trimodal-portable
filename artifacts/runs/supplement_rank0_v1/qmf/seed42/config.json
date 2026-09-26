@@ -1,0 +1,39 @@
+{
+  "config": {
+    "source_project": "/home/wp24/mix/sarcopenia_original_us_trimodal_5fold - new",
+    "clinical_excel": "/home/wp24/mix/肌少症患者数据统计修改版2 - 副本.xlsx",
+    "raw_root": "/home/wp24/mix/更新数据",
+    "imagenet_weights": "/home/wp24/.cache/torch/hub/checkpoints/resnet50-11ad3fa6.pth",
+    "output": "/home/wp24/mix/qmf_trimodal_joint_v1_4/artifacts",
+    "modalities": "us,emg,table",
+    "table_group": "combined",
+    "epochs": 100,
+    "patience": 100,
+    "batch_size": 6,
+    "windows_per_segment": 8,
+    "lr": 0.0002,
+    "encoder_lr": 1e-05,
+    "weight_decay": 0.001,
+    "rank_weight": 0.0,
+    "rank_mode": "positive_margin",
+    "split_seed": 20260911,
+    "device": "cuda",
+    "threads": 2,
+    "noise_probability": 0.5,
+    "us_noise_max_std": 0.1,
+    "emg_noise_max_std": 1.0,
+    "table_noise_max_std": 1.0
+  },
+  "dataset": "e65cd77846eb1a05301d8313f816b4e11722d47aeb191747801cbb93a6b70989",
+  "code": "e305db2cbcc323c4d164211ec4f48970767076a475c842f1d50fd9f955e70d2b",
+  "weights": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "smoke": false,
+  "environment": {
+    "python": "3.11.16",
+    "torch": "2.4.0",
+    "cuda": "12.4",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  },
+  "method": "qmf",
+  "seed": 42
+}

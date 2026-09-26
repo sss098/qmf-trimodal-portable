@@ -1,0 +1,9 @@
+{
+  "n": 85,
+  "positive": 62,
+  "source_hashes_verified": true,
+  "model_counts_verified": true,
+  "matched_dataset_verified": true,
+  "feature_exclusions_verified": true,
+  "additional_bootstrap": 10000
+}

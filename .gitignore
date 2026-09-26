@@ -12,5 +12,10 @@ weights/
 *.ckpt
 *.bin
 *.safetensors
+*.joblib
 artifacts/prepared/
 data/
+
+# Patient-level clinical measurements in the supplemental label audit.
+artifacts/runs/supplement_classical_v1/label_audit/patients.csv
+reports/label_audit_20260924/patients.csv
